@@ -40,7 +40,7 @@ Full Subtractor:
 
 
 VERILOG CODE:
-
+```
 full adder(code):
 module fulladder(sum,cout, a,b,c);
 input a,b,c;
@@ -56,7 +56,7 @@ output sum,cout;
   or o2(cout,w5,w4);
     
 endmodule
-
+```
 OUTPUT:
 
 full adder (design):
