@@ -226,7 +226,8 @@ endmodule
 
 output:
 design:
-![image](https://github.com/Nagarajan2003/VLSI-LAB-EXP-1/assets/164840481/951d0cef-628c-496f-a1f0-f67e60902468)
+![image](https://github.com/Nagarajan2003/VLSI-LAB-EXP-1/assets/164840481/2be28cbc-0974-473b-b405-945dade12520)
+
 
 sim:
 ![image](https://github.com/Nagarajan2003/VLSI-LAB-EXP-1/assets/164840481/f882d103-802e-46df-bf59-d6a062f495c5)
