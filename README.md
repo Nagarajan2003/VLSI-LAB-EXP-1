@@ -99,5 +99,30 @@ half sub(sim):
 ![image](https://github.com/Nagarajan2003/VLSI-LAB-EXP-1/assets/164840481/f57915b9-7669-4ed4-b6f2-d46e1df039e5)
 
 
+
+full sub(code):
+```
+module full_sub(borrow,diff,a,b,c);
+output borrow,diff;
+input a,b,c;
+wire w1,w4,w5,w6;
+xor (diff,a,b,c);
+not n1(w1,a);
+and a1(w4,w1,b);
+and a2(w5,w1,c);
+and a3(w6,b,c);
+or o1(borrow,w4,w5,w6);
+endmodule
+```
+
+output:
+full sub(sim):
+![image](https://github.com/Nagarajan2003/VLSI-LAB-EXP-1/assets/164840481/119024ee-1de3-43d5-8833-3f6a930c9165)
+
+full sub(design):
+![image](https://github.com/Nagarajan2003/VLSI-LAB-EXP-1/assets/164840481/2779fde7-0015-4282-9560-7c2ad5c403fa)
+
+
+
 RESULT:
 
