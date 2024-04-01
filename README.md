@@ -64,6 +64,22 @@ full adder (design):
 full adder(sim):
 ![image](https://github.com/Nagarajan2003/VLSI-LAB-EXP-1/assets/164840481/d40fd61d-646a-447e-a04a-4b99a4bd2979)
 
+half adder(code):
+```
+module half_adder(a,b,sum,carry);
+input a,b;
+output sum,carry; // sum and carry
+or(sum,a,b);
+and(carry,a,b);
+endmodule
+```
+output:
+half adder(sim):
+![image](https://github.com/Nagarajan2003/VLSI-LAB-EXP-1/assets/164840481/f6f7e6a6-b0b6-4d2d-8f62-d4d9d80c7345)
+half adder(design):
+![image](https://github.com/Nagarajan2003/VLSI-LAB-EXP-1/assets/164840481/422b68d7-29d5-4266-afa8-8456f05fc359)
+
+
 
 half sub(code):
 ```
