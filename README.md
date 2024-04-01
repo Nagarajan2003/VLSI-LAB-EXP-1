@@ -77,9 +77,9 @@ and (Bo,B,w1);
 endmodule
 ```
 OUTPUT:
-half adder(design):
+half sub(design):
 ![image](https://github.com/Nagarajan2003/VLSI-LAB-EXP-1/assets/164840481/9be2426b-9f03-4e73-860c-d11c94d6e448)
-half adder(sim):
+half sub(sim):
 ![image](https://github.com/Nagarajan2003/VLSI-LAB-EXP-1/assets/164840481/f57915b9-7669-4ed4-b6f2-d46e1df039e5)
 
 
