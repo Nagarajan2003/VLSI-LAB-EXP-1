@@ -175,7 +175,7 @@ endmodule
 output(sim):
 ![image](https://github.com/Nagarajan2003/VLSI-LAB-EXP-1/assets/164840481/0d3fe0d1-618a-409f-aae2-85902b15de4c)
 
-disign():
+rca4(disign):
 ![image](https://github.com/Nagarajan2003/VLSI-LAB-EXP-1/assets/164840481/c2278b6b-eaf4-4991-9fa2-3901246dc0df)
 
 
@@ -225,11 +225,11 @@ endmodule
 ```
 
 output:
-design():
+rca8(design):
 ![image](https://github.com/Nagarajan2003/VLSI-LAB-EXP-1/assets/164840481/2be28cbc-0974-473b-b405-945dade12520)
 
 
-sim():
+rca8(sim):
 ![image](https://github.com/Nagarajan2003/VLSI-LAB-EXP-1/assets/164840481/f882d103-802e-46df-bf59-d6a062f495c5)
 
 
