@@ -58,6 +58,11 @@ Full Subtractor:
 
 
 VERILOG CODE:
+#1:-
+
+FULL_ADDER:-
+
+Code:
 ```
 full adder(code):
 module fulladder(sum,cout, a,b,c);
@@ -77,12 +82,17 @@ endmodule
 ```
 OUTPUT:
 
-full adder (design):
+Elaborated Design:
 ![image](https://github.com/Nagarajan2003/VLSI-LAB-EXP-1/assets/164840481/c00dfa5e-0261-4ac9-8353-264c94e7f3cf)
-full adder(sim):
+
+Simulation:
 ![image](https://github.com/Nagarajan2003/VLSI-LAB-EXP-1/assets/164840481/d40fd61d-646a-447e-a04a-4b99a4bd2979)
 
-half adder(code):
+#2:-
+
+FULL_SUBTRACTOR:-
+
+Code:
 ```
 module half_adder(a,b,sum,carry);
 input a,b;
@@ -92,14 +102,18 @@ and(carry,a,b);
 endmodule
 ```
 output:
-half adder(sim):
+Simulation:
 ![image](https://github.com/Nagarajan2003/VLSI-LAB-EXP-1/assets/164840481/f6f7e6a6-b0b6-4d2d-8f62-d4d9d80c7345)
-half adder(design):
+Elaborated Design:
 ![image](https://github.com/Nagarajan2003/VLSI-LAB-EXP-1/assets/164840481/422b68d7-29d5-4266-afa8-8456f05fc359)
 
 
 
-half sub(code):
+#3:-
+
+HALF_ADDER:-
+
+Code:
 ```
 module halfsubtractor( D,Bo,A,B);
 input A,B;
@@ -111,14 +125,16 @@ and (Bo,B,w1);
 endmodule
 ```
 OUTPUT:
-half sub(design):
+Elaborated Design:
 ![image](https://github.com/Nagarajan2003/VLSI-LAB-EXP-1/assets/164840481/9be2426b-9f03-4e73-860c-d11c94d6e448)
-half sub(sim):
+Simulation:
 ![image](https://github.com/Nagarajan2003/VLSI-LAB-EXP-1/assets/164840481/f57915b9-7669-4ed4-b6f2-d46e1df039e5)
 
 
 
-full sub(code):
+#4 HALF_SUBTRACTOR:-
+
+Code:
 ```
 module full_sub(borrow,diff,a,b,c);
 output borrow,diff;
@@ -134,13 +150,15 @@ endmodule
 ```
 
 output:
-full sub(sim):
+Simulation:
 ![image](https://github.com/Nagarajan2003/VLSI-LAB-EXP-1/assets/164840481/119024ee-1de3-43d5-8833-3f6a930c9165)
 
-full sub(design):
+Elaborated Design:
 ![image](https://github.com/Nagarajan2003/VLSI-LAB-EXP-1/assets/164840481/2779fde7-0015-4282-9560-7c2ad5c403fa)
 
-logicgates(code):
+#5 LOGIC_GATES:-
+
+Code:
 ```
 module logicgates(a,b,andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate);
 input a,b;
@@ -156,14 +174,17 @@ endmodule
 ```
 output:
 
-logicgates(sim):
+Simulation:
 ![image](https://github.com/Nagarajan2003/VLSI-LAB-EXP-1/assets/164840481/41af7ce7-e6af-4281-b556-dcc13dfd1aff)
 
-logicgates(design):
+Elaborated Design:
 ![image](https://github.com/Nagarajan2003/VLSI-LAB-EXP-1/assets/164840481/e1219f05-ef53-47e7-b5d6-afee83f0eadf)
 
+#6
 
-ripplecarryadder(code):
+RIPPLE_CARRY_Adder(4-BIT):-
+
+Code:
 ```
 module rippe_adder(S, Cout, X, Y,Cin);
 input [3:0] X, Y;// Two 4-bit inputs
@@ -190,17 +211,23 @@ or  G5(Co, w2, w3);
 endmodule
 ```
 
-output(sim):
+output:
+
+Simulation:
 ![image](https://github.com/Nagarajan2003/VLSI-LAB-EXP-1/assets/164840481/0d3fe0d1-618a-409f-aae2-85902b15de4c)
 
-rca4(disign):
+Elaborated Design:
 
 
 ![image](https://github.com/Nagarajan2003/VLSI-LAB-EXP-1/assets/164840481/c2278b6b-eaf4-4991-9fa2-3901246dc0df)
 
 
 
-ripplecarryadder 8 bit(code):
+#7
+
+RIPPLE_CARRY_ADDER(8-BIT):-
+
+Code:
 ```
 module fulladder(sum,cout, a,b,c);
 input a,b,c;
@@ -245,12 +272,12 @@ endmodule
 ```
 
 output:
-rca8(design):
+Elaborated Design:
 
 ![image](https://github.com/Nagarajan2003/VLSI-LAB-EXP-1/assets/164840481/2be28cbc-0974-473b-b405-945dade12520)
 
 
-rca8(sim):
+Simulation:
 
 
 
@@ -262,5 +289,4 @@ rca8(sim):
 
 
 
-RESULT:
-
+RESULT : The simulation and synthesis of Logic Gates, Adders and Subtractor using Vivadoo Software are successfully verified
